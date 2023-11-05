@@ -1,0 +1,229 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.navbar{
+    height:70px;
+    width:100%;
+    background-color: black;
+}
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+   margin-top: 22px;
+   margin-left: 120px;
+   font-size: 25px;
+   color:orangered;
+}
+.menu{
+    height:60px;
+    width:90px;
+    float: left;
+}
+ul{
+    flex:left;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 460px;
+    margin-top:13px;
+}
+ul li{
+    list-style: none;
+    font-size: 21px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orangered;
+}
+.content{
+    background-color: rgba(0, 0, 0, 0.719);
+    height:900px;
+}
+.box1{
+    flex:left;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid blue;
+    height:400px;
+    width:1800px;
+}
+.about{
+    color:white;
+    font-size: 13px;
+    display: flex;
+}
+.par{
+    color:white;
+    font-size:10px;
+    display: flex;
+}
+.box2 {
+    flex: left;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid blue;
+    height: 400px;
+    width: 900px;
+}
+.abtme{
+    background-color:rgba(0, 0, 0, 0.568) ;
+    width:100%;
+    height:450px;
+}
+.heading{
+    margin-left: 170px;
+    font-size: 17px;
+    padding-top: 42px;
+    text-decoration: underline;
+    text-shadow: 2px 2px 8px orangered;
+}
+span{
+    text-decoration: underline;
+}
+.heading1{
+    padding-top: 39px;
+    font-size:10.5px;
+    margin-left:70px;
+    line-height: 35px;
+    color:white;
+}
+/*
+.icon1{
+    padding-top: 40px;
+    padding-left: 90px;
+    font-size:25px;
+}*/
+
+.btnn{
+    margin-top: 40px;
+    margin-left: 190px;
+    height:30px;
+    width:120px;
+    font-size: 9px;
+    background-color: orangered;
+}
+.btnn:hover{
+    background-color: white;
+}
+
+.btnnn {
+    margin-top: 40px;
+    margin-left: 20px;
+    height: 30px;
+    width: 120px;
+    font-size: 9px;
+    background-color: orangered;
+}
+
+.btnnn:hover {
+    background-color: white;
+}
+.mypic{
+    position: absolute;
+    border-radius:50%;
+    margin-left:880px;
+    top:110px;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+.mypic .hey{
+    border-radius: 50%;
+}
+.work{
+    background-color: silver;
+    width:100%;
+    height:450px;
+}
+.working{
+    padding-top: 40px;
+}
+.work-pic{
+    background-image: url("img1.png");
+    height:900px;
+    width:900px;
+    margin-left: 80px;
+    padding-top: 900px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+.logoo{
+    margin-left: 690px;
+    text-decoration: underline;
+    padding-top: 15px;
+    text-shadow: 2px 2px 8px orangered;
+}
+.logooo{
+    font-size:20px;
+    margin-left: 500px;
+    padding-top: 20px;
+}
+.first{
+    margin-top: 20px;
+}
+.first .first-line{
+    margin-left: 400px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.second {
+    margin-top: 20px;
+}
+.second .second-line {
+    margin-left: 550px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.contact{
+    background-color: rgba(0, 0, 0, 0.568);
+    width: 100%;
+    height: 450px;
+}
+.reach{
+    margin-left: 200px;
+    padding-top: 20px;
+    text-decoration: underline;
+    text-shadow: 2px 2px 8px orangered;
+}
+.reach1{
+    padding-top: 17px;
+    line-height: 35px;
+    margin-left: 100px;
+}
+.reach2{
+    margin-left: 100px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+.last-img{
+    padding-top: 20px;
+    margin-left: 100px;
+}
+.last-img .go{
+    margin-left: 10px;
+}
+.final-pic{
+    background-image: url("professional.jpg.png");
+    height:400px;
+    width:230px;
+    position: absolute;
+    margin-left: 650px;
+    top : 33000px;
+}
